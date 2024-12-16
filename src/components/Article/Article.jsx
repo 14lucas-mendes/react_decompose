@@ -5,7 +5,7 @@
 // Add a default export statement for Article component to use it in the other files
 import './Article.css';
 
-const Article = () => {
+export default function Article() {
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -59,6 +59,4 @@ const Article = () => {
       tristique·vehicula.·Ut·ligula·tortor,·tincidunt·quis·sodales·vitae,·orna
     </p>
   </article>;
-};
-
-export default Article;
+}
