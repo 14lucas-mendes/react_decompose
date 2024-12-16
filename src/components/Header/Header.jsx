@@ -6,7 +6,7 @@
 
 import './Header.css';
 
-const Head = () => {
+const Header = () => {
   <header className="header">
     <h1 className="header__title">Site Name</h1>
     <nav className="navigation">
@@ -23,4 +23,4 @@ const Head = () => {
   </header>;
 };
 
-export default Head;
+export default Header;
